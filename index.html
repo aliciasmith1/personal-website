@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alicia Smith - Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Alicia Smith</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#cv" class="nav-link">CV</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#publications" class="nav-link">Publications</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Alicia</span></h1>
+                <p class="hero-subtitle">I'm a Postdoctoral Research Fellow at the University of Melbourne</p>
+                <p class="hero-description">
+                    I have a PhD in Cognitive Neuroscience from the University of Cambridge and an interest in digital mental health.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">Learn More</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="profile_pic.jpeg" alt="Profile Picture" class="profile-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I am a cognitive neuroscientist with an interest in mental health science.
+                        I completed my PhD at the University of Cambridge, where I spent four years researching the effects of stress and trauma on cognition.
+                        Currently, as a postdoctoral researcher at the University of Melbourne, my work focuses on developing a new digital mental health assessment tool for young people.
+                    </p>
+                    <p>
+                        I collaborate closely with Clinical Psychologists and individuals with lived experience to ensure that our digital mental health tool is both clinically meaningful and practically useful. 
+                        My broader research interests include harnessing digital technologies to improve mental health outcomes and expanding access to mental health services.
+                    </p>
+                    <div class="skills">
+                        <h3>Areas of Expertise</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Research</span>
+                            <span class="skill-tag">Data Analysis</span>
+                            <span class="skill-tag">Project Management</span>
+                            <span class="skill-tag">Programming</span>
+                            <span class="skill-tag">Scientific Writing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV Section -->
+    <section id="cv" class="cv">
+        <div class="container">
+            <h2 class="section-title">Curriculum Vitae</h2>
+            <div class="cv-content">
+                <div class="cv-section">
+                    <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                    <div class="cv-item">
+                        <div class="cv-item-header">
+                            <h4>Ph.D. in Cognitive Neuroscience</h4>
+                            <span class="cv-date">2020 - 2024</span>
+                        </div>
+                        <p class="cv-institution">University of Cambridge</p>
+                        <p class="cv-description">Dissertation: "The pathophysiological mechanisms underlying metamemory disruptions"</p>
+                    </div>
+                    <div class="cv-item">
+                        <div class="cv-item-header">
+                            <h4>B.Sc. in Neuroscience</h4>
+                            <span class="cv-date">2015 - 2019</span>
+                        </div>
+                        <p class="cv-institution">University of Manchester</p>
+                        <p class="cv-description">Thesis: "Effects of childhood maltreatment on neural structure and its relationship with depression"</p>
+                    </div>
+                </div>
+
+                <div class="cv-section">
+                    <h3><i class="fas fa-briefcase"></i> Professional Experience</h3>
+                    <div class="cv-item">
+                        <div class="cv-item-header">
+                            <h4>Postdoctoral Research Fellow</h4>
+                            <span class="cv-date">2024 - Present</span>
+                        </div>
+                        <p class="cv-institution">University of Melbourne</p>
+                    </div>
+                    <div class="cv-item">
+                        <div class="cv-item-header">
+                            <h4>Research Intern</h4>
+                            <span class="cv-date">2023</span>
+                        </div>
+                        <p class="cv-institution">Orygen Digital</p>
+                    </div>
+                    <div class="cv-item">
+                        <div class="cv-item-header">
+                            <h4>Research Assistant</h4>
+                            <span class="cv-date">2019 - 2020</span>
+                        </div>
+                        <p class="cv-institution">University of Cambridge</p>
+                    </div>
+                </div>
+
+                <div class="cv-section">
+                    <h3><i class="fas fa-award"></i> Awards & Funding</h3>
+                    <div class="cv-item">
+                        <div class="cv-item-header">
+                            <h4>Sir Robbie Jennings Fund</h4>
+                            <span class="cv-date">2023</span>
+                        </div>
+                        <p class="cv-institution">University of Cambridge</p>
+                    </div>
+                    <div class="cv-item">
+                        <div class="cv-item-header">
+                            <h4>Ting-Hway Wong Fund</h4>
+                            <span class="cv-date">2023</span>
+                        </div>
+                        <p class="cv-institution">University of Cambridge</p>
+                    </div>
+                    <div class="cv-item">
+                        <div class="cv-item-header">
+                            <h4>MRC DTP Flexible Supplement Funding</h4>
+                            <span class="cv-date">2023</span>
+                        </div>
+                        <p class="cv-institution">Medical Research Council</p>
+                    </div>
+                    <div class="cv-item">
+                        <div class="cv-item-header">
+                            <h4>Jesus College Postgraduate Travel Grant</h4>
+                            <span class="cv-date">2023</span>
+                        </div>
+                        <p class="cv-institution">University of Cambridge</p>
+                    </div>
+                    <div class="cv-item">
+                        <div class="cv-item-header">
+                            <h4>Alwyn Lishman Prize</h4>
+                            <span class="cv-date">2022</span>
+                        </div>
+                        <p class="cv-institution">The British Neuropsychiatry Association</p>
+                    </div>
+                    <div class="cv-item">
+                        <div class="cv-item-header">
+                            <h4>MRC PhD Studentship</h4>
+                            <span class="cv-date">2020</span>
+                        </div>
+                        <p class="cv-institution">Medical Research Council</p>
+                    </div>
+                </div>
+
+                <div class="cv-download">
+                    <a href="CV.pdf" class="btn btn-primary">
+                        <i class="fas fa-download"></i> Download Full CV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="publications">
+        <div class="container">
+            <h2 class="section-title">Publications</h2>
+            <div class="publications-content">
+                
+                <div class="publications-list">
+                    <div class="publication-item">
+                        <div class="publication-header">
+                            <h3>User Character Strengths and Engagement Prediction on a Digital Mental Health Platform for Young People: Longitudinal Observational Study</h3>
+                            <span class="publication-year">2025</span>
+                        </div>
+                        <p class="publication-authors"><b>Alicia J Smith</b>, Shaminka N Mangelsdorf, Simon TE Baker, Javad Jafari, Mario Alvarez-Jimenez, Caitlin Hitchcock, Shane Cross</p>
+                        <p class="publication-venue">Journal of Medical Internet Research 27:e73793</p>
+                        <div class="publication-links">
+                            <a href="https://www.jmir.org/2025/1/e73793/" class="publication-link">
+                                <i class="fas fa-external-link-alt"></i> View Paper
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="publication-item">
+                        <div class="publication-header">
+                            <h3>Hot metacognition: poorer metacognitive efficiency following acute but not traumatic stress</h3>
+                            <span class="publication-year">2024</span>
+                        </div>
+                        <p class="publication-authors"><b>Alicia J Smith</b>, James A Bisby, Quentin Dercon, Anna Bevan, Stacey L Kigar, Mary-Ellen Lynall, Tim Dalgleish, Caitlin Hitchcock, Camilla L Nord</p>
+                        <p class="publication-venue">Translational Psychiatry 14, 133</p>
+                        <div class="publication-links">
+                            <a href="https://www.nature.com/articles/s41398-024-02840-z" class="publication-link">
+                                <i class="fas fa-external-link-alt"></i> View Paper
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="publication-item">
+                        <div class="publication-header">
+                            <h3>Friendship buffering effects on mental health symptoms before and during the COVID-19 pandemic: A UK longitudinal study of young people with childhood adversity</h3>
+                            <span class="publication-year">2024</span>
+                        </div>
+                        <p class="publication-authors">Maximilian König, <b>Alicia J Smith</b>, Laura Moreno-López, Eugenia Davidson, Maria Dauvermann, Sofia Orellana, Ethan M McCormick, Tara S Peris, Muzaffer Kaser, Konstantinos Ioannidis, Anne-Laura Van Harmelen</p>
+                        <p class="publication-venue">Development and Psychopathology 1-16. </p>
+                        <div class="publication-links">
+                            <a href="https://www.cambridge.org/core/journals/development-and-psychopathology/article/friendship-buffering-effects-on-mental-health-symptoms-before-and-during-the-covid19-pandemic-a-uk-longitudinal-study-of-young-people-with-childhood-adversity/118D2E74EF940B1A5BF7193591428C75" class="publication-link">
+                                <i class="fas fa-external-link-alt"></i> View Paper
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="publication-item">
+                        <div class="publication-header">
+                            <h3>From basic science to clinical practice: Can cognitive behavioural therapy tasks be augmented with enhanced episodic specificity?</h3>
+                            <span class="publication-year">2023</span>
+                        </div>
+                        <p class="publication-authors">Laura C Marsh, Shivam D Patel, <b>Alicia J Smith</b>, Melody So, Harriet Armstrong, Rachel Elliott, Edward Watkins, Michelle Moulds, Tim Dalgleish, Caitlin Hitchcock</p>
+                        <p class="publication-venue">Behaviour research and therapy 167</p>
+                        <div class="publication-links">
+                            <a href="https://www.sciencedirect.com/science/article/pii/S0005796723001018" class="publication-link">
+                                <i class="fas fa-external-link-alt"></i> View Paper
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="publication-item">
+                        <div class="publication-header">
+                            <h3>A transdiagnostic meta-analysis of acute augmentations to psychological therapy</h3>
+                            <span class="publication-year">2023</span>
+                        </div>
+                        <p class="publication-authors">Camilla L Nord, Beth Longley, Quentin Dercon, Veronica Phillips, Julia Funk, Siobhan Gormley, Rachel Knight, <b>Alicia J Smith</b>, Tim Dalgleish</p>
+                        <p class="publication-venue">Nature Mental Health 1, 389–401</p>
+                        <div class="publication-links">
+                            <a href="https://www.nature.com/articles/s44220-023-00048-6" class="publication-link">
+                                <i class="fas fa-external-link-alt"></i> View Paper
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="publication-item" data-category="journal">
+                        <div class="publication-header">
+                            <h3>A randomized, controlled proof-of-concept trial evaluating durable effects of memory flexibility training (MemFlex) on autobiographical memory distortions and on relapse of recurrent major depressive disorder over 12 months</h3>
+                            <span class="publication-year">2021</span>
+                        </div>
+                        <p class="publication-authors">Caitlin Hitchcock, <b>Alicia J Smith</b>, Rachel Elliott, Cliodhna O'Leary, Siobhan Gormley, Jenna Parker, Shivam D Patel, Carlos V Esteves, Evangeline Rodrigues, Emily Hammond, Peter Watson, Aliza Werner-Seidler, Tim Dalgleish</p>
+                        <p class="publication-venue">Behaviour research and therapy 140, 103835</p>
+                        <div class="publication-links">
+                            <a href="https://www.sciencedirect.com/science/article/pii/S0005796721000346" class="publication-link">
+                                <i class="fas fa-external-link-alt"></i> View Paper
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="publication-item" data-category="journal">
+                        <div class="publication-header">
+                            <h3>The resilient emotional brain: a scoping review of the medial prefrontal cortex and limbic structure and function in resilient adults with a history of childhood maltreatment</h3>
+                            <span class="publication-year">2020</span>
+                        </div>
+                        <p class="publication-authors">Laura Moreno-López, Konstantinos Ioannidis, Adrian Dahl Askelund, <b>Alicia J Smith</b>, Katja Schueler, Anne-Laura Van Harmelen</p>
+                        <p class="publication-venue">Biological Psychiatry: cognitive neuroscience and neuroimaging 5, 4, 392-402</p>
+                        <div class="publication-links">
+                            <a href="https://www.sciencedirect.com/science/article/abs/pii/S2451902219303489" class="publication-link">
+                                <i class="fas fa-external-link-alt"></i> View Paper
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="publication-item" data-category="journal">
+                        <div class="publication-header">
+                            <h3>Role of autobiographical memory in patient response to cognitive behavioural therapies for depression: protocol of an individual patient data meta-analysis</h3>
+                            <span class="publication-year">2019</span>
+                        </div>
+                        <p class="publication-authors">
+                            Caitlin Hitchcock, Judita Rudokaite, Shivam Patel, <b>Alicia Smith</b>, Isla Kuhn, Edward Watkins, Tim Dalgleish</p>
+                        <p class="publication-venue">BMJ Open 9, e031110</p>
+                        <div class="publication-links">
+                            <a href="https://bmjopen.bmj.com/content/9/6/e031110.abstract" class="publication-link">
+                                <i class="fas fa-external-link-alt"></i> View Paper
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>alicia.smith@unimelb.edu.au</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Melbourne, VIC, Australia</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/alicia-smith-519624174/" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/aliciasmith1" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://scholar.google.com/citations?user=LwFMWMAAAAAJ&hl=en" class="social-link" target="_blank">
+                        <i class="fas fa-graduation-cap"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Alicia Smith. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

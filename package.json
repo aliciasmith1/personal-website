@@ -1,0 +1,25 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "A modern, responsive personal website with About, CV, and Publications sections",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "serve": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "personal-website",
+    "portfolio",
+    "cv",
+    "publications",
+    "responsive",
+    "modern"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/personal-website.git"
+  },
+  "homepage": "https://yourusername.github.io/personal-website"
+}
